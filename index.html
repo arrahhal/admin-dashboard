@@ -1,12 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <title>Admin Dashboard</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="top-bar">
+          <div class="search">
+            <img src="./src/icons/magnify.svg" alt="" /><input
+              type="search"
+              name="search"
+              id="search"
+            />
+          </div>
+          <div class="tweaks"></div>
+        </div>
+        <div class="hero-bar">
+          <div class="hero-profile">
+            <img class="avatar" src="" alt="avatar" />
+            <div class="admin-info">
+              <p>Hi there,</p>
+              <p class="admin-name">
+                Abdulrahman Rahhal <span class="username">(@rahhaly)</span>
+              </p>
+            </div>
+          </div>
+          <div class="edit-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+      <div class="sidebar">
+        <div class="logo">
+          <img src="./src/icons/view-dashboard.svg" alt="dashboard icon" />
+          <h1>Dashboard</h1>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <img src="./src/icons/home.svg" alt="home icon" /><span
+                >Home</span
+              >
+            </li>
+            <li>
+              <img
+                src="./src/icons/card-account-details-outline.svg"
+                alt="profile card icon"
+              /><span>Profile</span>
+            </li>
+            <li>
+              <img src="./src/icons/message.svg" alt="message icon" /><span
+                >Messages</span
+              >
+            </li>
+            <li>
+              <img
+                src="./src/icons/clock-time-three.svg"
+                alt="history icon"
+              /><span>History</span>
+            </li>
+            <li>
+              <img
+                src="./src/icons/text-box-outline.svg"
+                alt="tasks icon"
+              /><span>Tasks</span>
+            </li>
+            <li>
+              <img
+                src="./src/icons/account-group-outline.svg"
+                alt="group icon"
+              /><span>Communities</span>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <img src="./src/icons/cog.svg" alt="settings" /><span
+                >Settings</span
+              >
+            </li>
+            <li>
+              <img src="./src/icons/help-box.svg" alt="support" /><span
+                >Support</span
+              >
+            </li>
+            <li>
+              <img
+                src="./src/icons/shield-check.svg"
+                alt="privacy shield"
+              />Privacy<span></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-content">
+        <div class="projects">
+          <h2>My Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/calculator.png"
+                alt="calculator webapp"
+              />
+              <p class="project-title">Calculator</p>
+              <p class="project-desc">
+                A calculator app which do the binary and basic mathematical
+                operations (addition, subtraction, multiplication and division).
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/form.png"
+                alt="sign up webpage"
+              />
+              <p class="project-title">Form Page</p>
+              <p class="project-desc">
+                A sign up page. Enter your account details to sign in(it's just
+                a sample page).
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/painter.png"
+                alt="paint webapp"
+              />
+              <p class="project-title">Etch-A-Sketch</p>
+              <p class="project-desc">
+                Paint app with very nice and minimalist interface. It's
+                functionalities includes random color brush and customize
+                resolution
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/tic-tac-toe.png"
+                alt="tic tac toe game"
+              />
+              <p class="project-title">Tic Tac Toe</p>
+              <p class="project-desc">
+                The nice Tic Tac Toe game. player vs player mode to play with
+                friends and family.
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/library.png"
+                alt="library webapp"
+              />
+              <p class="project-title">Library</p>
+              <p class="project-desc">
+                In Library you can add your books, remove theme and track their
+                status.
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                class="project-img"
+                src="./src/imgs/rock-paper-scissors.png"
+                alt="rock paper scissors game"
+              />
+              <p class="project-title">Rock Paper Scissors</p>
+              <p class="project-desc">
+                The very famous rock paper scissors game.
+              </p>
+              <div class="project-opt">
+                <img
+                  src="./src/icons/star-plus-outline.svg"
+                  alt="star icon"
+                /><img
+                  src="./src/icons/eye-plus-outline.svg"
+                  alt="views icon"
+                /><img src="./src/icons/source-branch.svg" alt="branch icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="articles">
+        <h2>Articles</h2>
+        <div class="articles-content">
+          <div class="article">
+            <p class="article-title">Lorem ipsum dolor</p>
+            <p class="article-brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              ducimus itaque distinctio nulla eum, consectetur voluptas neque
+              recusandae. Aperiam molestiae aut saepe facilis dolorem pariatur
+              aspernatur excepturi qui maiores ex.
+            </p>
+          </div>
+          <div class="article">
+            <p class="article-title">Lorem ipsum dolor</p>
+            <p class="article-brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              ducimus itaque distinctio nulla eum, consectetur voluptas neque
+              recusandae. Aperiam molestiae aut saepe facilis dolorem pariatur
+              aspernatur excepturi qui maiores ex.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="tools">
+        <h2>Tools</h2>
+        <div class="tools-container">
+          <div class="tools-item">
+            <img class="tool-img" src="" alt="tool image" />
+            <p class="tool-name">Lorem, ipsum.</p>
+          </div>
+          <div class="tools-item">
+            <img class="tool-img" src="" alt="tool image" />
+            <p class="tool-name">Lorem, ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
