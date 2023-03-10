@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/normalize.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>Admin Dashboard</title>
   </head>
@@ -18,17 +18,21 @@
       <header class="header">
         <div class="top-bar">
           <div class="search">
-            <img class="icon" src="./src/icons/magnify.svg" alt="" /><input
-              type="search"
-              name="search"
-              id="search"
-            />
+            <label for="search"
+              ><img
+                class="icon"
+                src="./src/icons/magnify.svg"
+                alt="magnify" /></label
+            ><input type="search" name="search" id="search" />
           </div>
-          <div class="tweaks"></div>
+          <div class="tweaks">
+            <img class="icon" src="./src/icons/bell-ring-outline.svg" alt="bell icon">
+            <img class="avatar" src="./src/imgs/avatar.jpg" alt="avatar">
+          </div>
         </div>
         <div class="hero-bar">
           <div class="hero-profile">
-            <img class="avatar" src="" alt="avatar" />
+            <img class="avatar" src="./src/imgs/avatar.jpg" alt="avatar" />
             <div class="admin-info">
               <p>Hi there,</p>
               <p class="admin-name">
@@ -37,50 +41,63 @@
             </div>
           </div>
           <div class="edit-buttons">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
           </div>
         </div>
       </header>
       <div class="sidebar">
         <div class="logo">
-          <img id="dash-icon" class="icon" src="./src/icons/view-dashboard.svg" alt="dashboard icon" />
+          <img
+            id="dash-icon"
+            class="icon"
+            src="./src/icons/view-dashboard.svg"
+            alt="dashboard icon"
+          />
           <h1>Dashboard</h1>
         </div>
         <nav>
           <ul class="nav-list">
             <li id="home-li">
-              <img class="icon" src="./src/icons/home.svg" alt="home icon" /><span
-                >Home</span
-              >
+              <img
+                class="icon"
+                src="./src/icons/home.svg"
+                alt="home icon"
+              /><span>Home</span>
             </li>
             <li>
               <img
-                class="icon" src="./src/icons/card-account-details-outline.svg"
+                class="icon"
+                src="./src/icons/card-account-details-outline.svg"
                 alt="profile card icon"
               /><span>Profile</span>
             </li>
             <li>
-              <img class="icon" src="./src/icons/message.svg" alt="message icon" /><span
-                >Messages</span
-              >
+              <img
+                class="icon"
+                src="./src/icons/message.svg"
+                alt="message icon"
+              /><span>Messages</span>
             </li>
             <li>
               <img
-                class="icon" src="./src/icons/clock-time-three.svg"
+                class="icon"
+                src="./src/icons/clock-time-three.svg"
                 alt="history icon"
               /><span>History</span>
             </li>
             <li>
               <img
-                class="icon" src="./src/icons/text-box-outline.svg"
+                class="icon"
+                src="./src/icons/text-box-outline.svg"
                 alt="tasks icon"
               /><span>Tasks</span>
             </li>
             <li>
               <img
-                class="icon" src="./src/icons/account-group-outline.svg"
+                class="icon"
+                src="./src/icons/account-group-outline.svg"
                 alt="group icon"
               /><span>Communities</span>
             </li>
@@ -94,13 +111,16 @@
               >
             </li>
             <li>
-              <img class="icon" src="./src/icons/help-box.svg" alt="support" /><span
-                >Support</span
-              >
+              <img
+                class="icon"
+                src="./src/icons/help-box.svg"
+                alt="support"
+              /><span>Support</span>
             </li>
             <li>
               <img
-                class="icon" src="./src/icons/shield-check.svg"
+                class="icon"
+                src="./src/icons/shield-check.svg"
                 alt="privacy shield"
               />Privacy<span></span>
             </li>
@@ -124,12 +144,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
             <div class="project-card">
@@ -145,12 +171,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
             <div class="project-card">
@@ -167,12 +199,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
             <div class="project-card">
@@ -188,12 +226,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
             <div class="project-card">
@@ -209,12 +253,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
             <div class="project-card">
@@ -229,12 +279,18 @@
               </p>
               <div class="project-opt">
                 <img
-                  class="icon" src="./src/icons/star-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/star-plus-outline.svg"
                   alt="star icon"
                 /><img
-                  class="icon" src="./src/icons/eye-plus-outline.svg"
+                  class="icon"
+                  src="./src/icons/eye-plus-outline.svg"
                   alt="views icon"
-                /><img class="icon" src="./src/icons/source-branch.svg" alt="branch icon" />
+                /><img
+                  class="icon"
+                  src="./src/icons/source-branch.svg"
+                  alt="branch icon"
+                />
               </div>
             </div>
           </div>
