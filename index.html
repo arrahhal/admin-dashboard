@@ -26,8 +26,15 @@
             ><input type="search" name="search" id="search" />
           </div>
           <div class="tweaks">
-            <img class="icon" src="./src/icons/bell-ring-outline.svg" alt="bell icon">
-            <img class="avatar" src="./src/imgs/avatar.jpg" alt="avatar">
+            <img
+              class="icon"
+              src="./src/icons/bell-ring-outline.svg"
+              alt="bell icon"
+            />
+            <a href="http://www.github.com/rahhaly" target="_blank"
+              ><img class="icon" src="./src/icons/github.svg" alt="github icon"
+            /></a>
+            <img class="avatar" src="./src/imgs/avatar.jpg" alt="avatar" />
           </div>
         </div>
         <div class="hero-bar">
@@ -132,11 +139,13 @@
           <h2>My Projects</h2>
           <div class="projects-container">
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/calculator.png"
-                alt="calculator webapp"
-              />
+              <a href="https://rahhaly.github.io/calculator" target="_blank">
+                <img
+                  class="project-img"
+                  src="./src/imgs/calculator.png"
+                  alt="calculator webapp"
+                />
+              </a>
               <p class="project-title">Calculator</p>
               <p class="project-desc">
                 A calculator app which do the binary and basic mathematical
@@ -159,11 +168,13 @@
               </div>
             </div>
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/form.png"
-                alt="sign up webpage"
-              />
+              <a href="https://rahhaly.github.io/sign-up-form" target="_blank">
+                <img
+                  class="project-img"
+                  src="./src/imgs/form.png"
+                  alt="sign up webpage"
+                />
+              </a>
               <p class="project-title">Form Page</p>
               <p class="project-desc">
                 A sign up page. Enter your account details to sign in(it's just
@@ -186,11 +197,13 @@
               </div>
             </div>
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/painter.png"
-                alt="paint webapp"
-              />
+              <a href="https://rahhaly.github.io/Etch-A-Sketch" target="_blank">
+                <img
+                  class="project-img"
+                  src="./src/imgs/painter.png"
+                  alt="paint webapp"
+                />
+              </a>
               <p class="project-title">Etch-A-Sketch</p>
               <p class="project-desc">
                 Paint app with very nice and minimalist interface. It's
@@ -214,11 +227,13 @@
               </div>
             </div>
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/tic-tac-toe.png"
-                alt="tic tac toe game"
-              />
+              <a href="https://rahhaly.github.io/tic-tac-toe" target="_blank">
+                <img
+                  class="project-img"
+                  src="./src/imgs/tic-tac-toe.png"
+                  alt="tic tac toe game"
+                />
+              </a>
               <p class="project-title">Tic Tac Toe</p>
               <p class="project-desc">
                 The nice Tic Tac Toe game. player vs player mode to play with
@@ -241,11 +256,13 @@
               </div>
             </div>
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/library.png"
-                alt="library webapp"
-              />
+              <a href="https://rahhaly.github.io/library" target="_blank">
+                <img
+                  class="project-img"
+                  src="./src/imgs/library.png"
+                  alt="library webapp"
+                />
+              </a>
               <p class="project-title">Library</p>
               <p class="project-desc">
                 In Library you can add your books, remove theme and track their
@@ -268,11 +285,16 @@
               </div>
             </div>
             <div class="project-card">
-              <img
-                class="project-img"
-                src="./src/imgs/rock-paper-scissors.png"
-                alt="rock paper scissors game"
-              />
+              <a
+                href="https://rahhaly.github.io/rock-paper-scissors"
+                target="_blank"
+              >
+                <img
+                  class="project-img"
+                  src="./src/imgs/rock-paper-scissors.png"
+                  alt="rock paper scissors game"
+                />
+              </a>
               <p class="project-title">Rock Paper Scissors</p>
               <p class="project-desc">
                 The very famous rock paper scissors game.
@@ -295,40 +317,61 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="articles">
-        <h2>Articles</h2>
-        <div class="articles-content">
-          <div class="article">
-            <p class="article-title">Lorem ipsum dolor</p>
-            <p class="article-brief">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              ducimus itaque distinctio nulla eum, consectetur voluptas neque
-              recusandae. Aperiam molestiae aut saepe facilis dolorem pariatur
-              aspernatur excepturi qui maiores ex.
-            </p>
+        <div class="side-content">
+          <div>
+            <h2>Articles</h2>
+            <div class="articles side-container">
+              <div class="article">
+                <p class="article-title">
+                  <a
+                    href="https://stackoverflow.com/questions/15909489/text-overflow-ellipsis-on-two-lines"
+                    target="_blank"
+                    >Text overflow ellipsis on two lines</a
+                  >
+                </p>
+                <p class="article-desc">
+                  I know you can use a combination of CSS rules to make text end
+                  with ellipsis (...) when it's time to overflow (get out of
+                  parent's bounds). Is it possible (feel free to just say, no)
+                  to achieve the same effect, but let the text wrap on more than
+                  one line? Here's a demo. div { width: 300px; height: 42px;
+                  overflow: hidden; text-overflow: ellipsis; white-space:
+                  nowrap; } As you can see, the text ends with ellipsis when it
+                  goes wider than the div's width. However, there is still
+                  enough space for the text to wrap on a second line and go on.
+                  This is interrupted by white-space: nowrap, which is required
+                  for the ellipsis to work. Any ideas? P.S.: No JS solutions,
+                  pure CSS if possible.
+                </p>
+              </div>
+              <div class="article">
+                <p class="article-title">Lorem ipsum dolor</p>
+                <p class="article-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  ducimus itaque distinctio nulla eum, consectetur voluptas
+                  neque recusandae. Aperiam molestiae aut saepe facilis dolorem
+                  pariatur aspernatur excepturi qui maiores ex.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="article">
-            <p class="article-title">Lorem ipsum dolor</p>
-            <p class="article-brief">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              ducimus itaque distinctio nulla eum, consectetur voluptas neque
-              recusandae. Aperiam molestiae aut saepe facilis dolorem pariatur
-              aspernatur excepturi qui maiores ex.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="tools">
-        <h2>Tools</h2>
-        <div class="tools-container">
-          <div class="tools-item">
-            <img class="tool-img" src="" alt="tool image" />
-            <p class="tool-name">Lorem, ipsum.</p>
-          </div>
-          <div class="tools-item">
-            <img class="tool-img" src="" alt="tool image" />
-            <p class="tool-name">Lorem, ipsum.</p>
+          <div>
+            <h2>Tools</h2>
+            <div class="tools-container side-container">
+              <div class="tools-item">
+                <a href="https://theodinproject.com/" target="_blank"
+                  ><img
+                    class="tool-img"
+                    src="./src/imgs/theodinproject.jpg"
+                    alt="The Odin Project"
+                /></a>
+                <p class="tool-name">Tho Odin Project</p>
+              </div>
+              <div class="tools-item">
+                <img class="tool image" src="" alt="tool image" />
+                <p class="tool-name">Lorem, ipsum.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
